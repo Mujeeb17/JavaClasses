@@ -1,4 +1,4 @@
-package class6homework;
+package class6.class6homework;
 
 /*
 Print numbers from 100 to 1

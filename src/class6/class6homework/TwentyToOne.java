@@ -1,4 +1,4 @@
-package class6homework;
+package class6.class6homework;
 
 /*
 Print even numbers from 20 to 1 (2 ways)
@@ -15,6 +15,7 @@ public class TwentyToOne {
             i--;
         }
         System.out.println("**********");
+
         int x = 20;
         while (x > 1) {
             System.out.println(x);

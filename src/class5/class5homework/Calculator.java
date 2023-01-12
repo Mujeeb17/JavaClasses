@@ -11,9 +11,9 @@ public class Calculator {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please enter the first number");
-        double n1 = input.nextInt();
+        double n1 = input.nextDouble();
         System.out.println("Please enter the second number");
-        double n2 = input.nextInt();
+        double n2 = input.nextDouble();
         System.out.println("Please enter the operator (+ , - , * , /)");
         char o = input.next().charAt(0);
 

@@ -1,4 +1,4 @@
-package class6homework;
+package class6.class6homework;
 /*
 Print odd numbers between 20 and 50 (2 ways)
  */

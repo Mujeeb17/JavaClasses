@@ -1,4 +1,4 @@
-package class6homework;
+package class6.class6homework;
 /*
 Create a boolean variable workDay and assign true create int variable day and assign it to 1
 As long as it is workDay print “I need a day off” and increase day.

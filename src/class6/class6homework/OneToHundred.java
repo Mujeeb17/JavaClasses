@@ -1,4 +1,4 @@
-package class6homework;
+package class6.class6homework;
 /*
 Print numbers from 1 to 100 in 1 line with space
  */
