@@ -13,6 +13,7 @@ public class D2Arrays {
         //2d arrays can hold multiple individual arrays (like nested arrays)
         //first [] is rows, second [] is columns
         //like x and y axis on a graph
+        //EX for using 2D arrays: if we have to store Excel files
 
         //a 2d array that can hold 3 one D arrays, each of size 3
         String [][]train= new String[3][3];
