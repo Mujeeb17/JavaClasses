@@ -1,0 +1,34 @@
+Methods in Java:
+    Is just a collection of java statements and blocks of code
+
+Why should we learn about methods:
+    1) it allows us to simplify large code as we can divide
+    the logic into smaller parts by creating methods for them.
+    build those methods one by one and later combine them
+    to build the complete application.
+    2) Methods allow us to re-use code
+    3) Methods allow us to be flexible
+
+How can we create Methods
+    2 types of methods: built-in and user defined
+
+Built-in methods:
+    The methods which are designed by java developers for ex: println(), nextLine(), length().
+
+User-defined method:
+    The methods that we write.
+
+Methods which return something when called and
+others are methods which do not return anything when called.
+
+int add(int a, int b){
+    return a+b;
+}
+
+int => return type of a method
+add => name of the method
+(int a, int b) => parameters of the method or input to the method
+
+Rules:
+    return type and values we are returning from a method should match.
+    we can only assign methods to variables of same type
