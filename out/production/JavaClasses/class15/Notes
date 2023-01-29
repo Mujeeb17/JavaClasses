@@ -32,3 +32,22 @@ add => name of the method
 Rules:
     return type and values we are returning from a method should match.
     we can only assign methods to variables of same type
+************************************************************
+There are 3 types of variables with respect to their scope
+local variables:
+    if a variable is created inside a block of code like a method, loop, if condition etc.
+    they are called local variables
+
+    Upside: local variables occupy the memory for the shortest period of time.
+    You should always try to write code with local variables.
+    Downside: they can't be accesed outside of the block in which they are created in
+
+instance variables:
+    all variables created inside a class outside a method
+    are called instance variables
+
+    Upside: we can use them in all the instance methods of that class. their scope is
+    larger than local variables.
+    Downside: they stay longer in the memory compared to local variables
+Static variables:
+    all variables that are outside of methods and have the static keyword are static variables
