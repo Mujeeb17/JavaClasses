@@ -7,15 +7,26 @@ public class CountryHello {
 
     static String hello(String c){
 
-        String h = "";
-        if (c.equalsIgnoreCase("Canada") || c.equalsIgnoreCase("USA")){
-            h = "hello";
-        } else if (c.equalsIgnoreCase("France")){
-            h = "bonjour";
-        } else if (c.equalsIgnoreCase("Italy")){
-            h = "ciao";
+        //NOTE: that break; statement is not needed because as soon
+        //as the return statement is executed, the method is exited
+        //so return does the same thing as break
+        switch (c.toLowerCase()){
+            case "canada":
+            case "usa":
+                return "hello";
+
+            case "france":
+                return "bonjour";
+
+            case "italy":
+                return "ciao";
+
+            case "china":
+                return "Ni hao";
+
+            default:
+                return "Country not supported";
         }
-        return h;
     }
 
     public static void main(String[] args) {

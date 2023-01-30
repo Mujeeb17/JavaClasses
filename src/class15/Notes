@@ -48,6 +48,7 @@ instance variables:
 
     Upside: we can use them in all the instance methods of that class. their scope is
     larger than local variables.
+
     Downside: they stay longer in the memory compared to local variables
 Static variables:
     all variables that are outside of methods and have the static keyword are static variables

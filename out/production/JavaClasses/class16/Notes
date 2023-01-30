@@ -1,0 +1,40 @@
+Static variables:
+    all variables that are outside of methods and have the static keyword are static variables.
+    use static if value never changes for all objects. static variables have the ability
+    to share values of variables with different objects. They can be used in any block
+    of code inside the class or methods of a class.
+    Static variables have the most wide scope.
+
+    Also, instead of creating an object from a class to
+        access a static variable, you could just directly call the variable form the class
+        without using the object for EX:
+
+        instead of:
+        Class obj = new Class();
+        obj.variable;
+
+        you could just do this:
+        Class.variable;
+
+    Upside: static variables only occupy one memory location from the RAM even
+    though we create 1000 objects of that class (saves memory)
+    Downside: they're loaded into the memory when a class is loaded even
+    though you don't use them.
+
+Access modifiers:
+    Access modifiers are some keywords in java that we can use to control
+    the access of variables, methods, and classes.
+    there are 4 access levels: private, protected, default, public
+    there are 3 keywords that we use to control this access for ex:
+    private, protected, public
+
+Private:
+    if we write private keyword with a variable/method/class, we can access that only in that same class
+
+Default:
+    it's not a keyword. When we don't write any access modifiers with variable/method/class,
+    default access is applied automatically by java. Which means it will only be available to use as
+    long as it is within the same package
+
+Public:
+    public keyword allows the variable/method/class, to be avaiable to all classes in the project
