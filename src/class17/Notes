@@ -1,0 +1,17 @@
+Access modifiers recap:
+    They control the accessibility of methods anc classes
+    4 levels: private, protected, default, public
+Constructors:
+    Constructors help us create objects easily or initialise the instance fields of a class
+    in a better way
+
+Rules:
+    1) they are similar to methods, but they don't have return types
+    2) They have the same name as class name
+    3) We can use all the access modifiers with the constructors
+    4) static keyword is not allowed with constructors
+
+    You are able to create more than one constructor for EX: one constructor
+    takes 2 parameters, the other one takes 3. Even though they have to have the
+    same name, Java will know which constructor you want to use based on how many
+    parameters you have when creating the object, or the sequence of parameters

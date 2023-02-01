@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemoAndChar9 {
+public class StringDemoAndChar9CharacterIs {
     public static void main(String[] args) {
 
         String str = "jdkksdnk 36872678 %^&^*(";

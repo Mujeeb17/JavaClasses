@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo5 {
+public class StringDemo5equalsIgnoreCase {
     public static void main(String[] args) {
 
         String str = "Java";

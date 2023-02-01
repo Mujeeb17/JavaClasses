@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo7 {
+public class StringDemo7StartsOrEndsWithContains {
     public static void main(String[] args) {
 
         String str = "I love java";

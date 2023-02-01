@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo {
+public class StringDemo1IntroLength {
     public static void main(String[] args) {
 
         /*

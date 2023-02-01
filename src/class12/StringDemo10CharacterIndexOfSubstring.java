@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo10 {
+public class StringDemo10CharacterIndexOfSubstring {
     public static void main(String[] args) {
 
         //this is the method for checking the amount of spaces in a String

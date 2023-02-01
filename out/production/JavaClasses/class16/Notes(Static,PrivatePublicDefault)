@@ -37,4 +37,4 @@ Default:
     long as it is within the same package
 
 Public:
-    public keyword allows the variable/method/class, to be avaiable to all classes in the project
+    public keyword allows the variable/method/class, to be available to all classes in the project

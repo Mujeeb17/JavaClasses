@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo2 {
+public class StringDemo2LowercaseUppercase {
     public static void main(String[] args) {
 
         String str = "JAVA is FUN";

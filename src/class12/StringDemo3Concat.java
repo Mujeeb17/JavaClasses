@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo3 {
+public class StringDemo3Concat {
     public static void main(String[] args) {
 
         String fName = "Akhter";

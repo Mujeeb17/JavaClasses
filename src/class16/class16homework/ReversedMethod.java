@@ -6,8 +6,9 @@ within your project and accessible by class name.
  */
 public class ReversedMethod {
 
+    //'public' keyword allows us to make this method available to all classes in this project
+    //'static' allows us to call this method using just the class name (no object needed)
     public static String reverse(String s){
-        StringBuilder r = new StringBuilder(s);
-        return r.reverse().toString();
+        return new StringBuilder(s).reverse().toString();
     }
 }

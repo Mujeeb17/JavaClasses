@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo8 {
+public class StringDemo8charAt {
     public static void main(String[] args) {
 
         String str = "Java is love";

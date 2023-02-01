@@ -1,6 +1,6 @@
 package class12;
 
-public class StringDemo4 {
+public class StringDemo4isEmptyOrBlank {
     public static void main(String[] args) {
 
         String str = "";
