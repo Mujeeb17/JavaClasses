@@ -21,6 +21,8 @@ Static variables:
     Downside: they're loaded into the memory when a class is loaded even
     though you don't use them.
 
+
+
 Access modifiers:
     Access modifiers are some keywords in java that we can use to control
     the access of variables, methods, and classes.

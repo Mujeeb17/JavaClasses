@@ -1,5 +1,7 @@
 Methods in Java:
-    Is just a collection of java statements and blocks of code
+    Is just a collection of java statements and blocks of code.
+    Methods in java are just a block of code which performs a specific
+    task and it can be called upon later in a program
 
 Why should we learn about methods:
     1) it allows us to simplify large code as we can divide

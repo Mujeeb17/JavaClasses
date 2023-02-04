@@ -3,7 +3,7 @@ Access modifiers recap:
     4 levels: private, protected, default, public
 Constructors:
     Constructors help us create objects easily or initialise the instance fields of a class
-    in a better way
+    in a better way.
 
 Rules:
     1) they are similar to methods, but they don't have return types
@@ -15,3 +15,7 @@ Rules:
     takes 2 parameters, the other one takes 3. Even though they have to have the
     same name, Java will know which constructor you want to use based on how many
     parameters you have when creating the object, or the sequence of parameters
+
+    - Constructor is a block of code that is executed when we create an object
+    - There is no return type in constructors
+    - 2 types of Constructors: 1. non argument(). 2. with parameters

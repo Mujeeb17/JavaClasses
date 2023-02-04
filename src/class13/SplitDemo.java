@@ -9,6 +9,7 @@ public class SplitDemo {
         //strArr[0] = I like java
         //str[1] = I write a lot of code daily
         //str[2] = I am from batch 15
+
         //splitting the string using the following grammar
         String [] strArr = str.split("[.?!]");
         System.out.println(strArr.length);
