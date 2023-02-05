@@ -24,3 +24,6 @@ Inheritance
     1) single: One parent class, one sub class
     2) multi-level: One parent class, one sub class, one sub-sub class etc.
     3) Hierarchal: One parent class, many sub classes
+
+    - this keyword refers to the CURRENT class's instance variables and methods
+    - this() is used to call the CURENT class's constructor

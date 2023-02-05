@@ -18,4 +18,12 @@ This keyword:
 Inheritance
     is a mechanism where one class acquires all the methods an attributes of a parent class.
     The idea behind it is we can create new classes that are built upon existing classes.
-    'extends' is the keyword used to inherit the variables/methods of a class
+    'extends' is the keyword used to inherit the variables/methods of a class.
+
+    3 types of inheritance:
+    1) single: One parent class, one sub class
+    2) multi-level: One parent class, one sub class, one sub-sub class etc.
+    3) Hierarchal: One parent class, many sub classes
+
+    - this keyword refers to the CURRENT class's instance variables and methods
+    - this() is used to call the CURENT class's constructor
