@@ -25,3 +25,4 @@ Super
     - ALL CLASSES IN JAVA HAVE A PARENT CLASS. who is parent?: parent class of all classes is Object class(Built-in by default)
     - Object class is super class of all classes in java (this is the reason we see many available methods
       methods we can use when we use '.'
+    - we can use super keyword

@@ -1,5 +1,7 @@
 package class18or19;
 
+import class20.SuperClass;
+
 public class InheritanceAccountTester {
     public static void main(String[] args) {
 
@@ -34,5 +36,9 @@ public class InheritanceAccountTester {
 
         sa.deposit(); // from parent class
         sa.takeProfit(); //from sub class
+
+        SuperSavings ss = new SuperSavings();
+
+        ss.superSavings(); // from it's own class
     }
 }
