@@ -21,6 +21,14 @@ Access modifier & Inheritance
     public members are available everywhere.
 
 Super
+    Is used to refer to the parent class members like fields methods and constructors
+
+When we should use 'super' or 'this' keyword:
+    whenever sam name field field/method exists inside the parent & child class, we can
+    use super to refer to parent class variables or methods or constructors.
+    Note: by default (without 'this' or 'super'), java will refer to the local member first, then
+    instance, then from the parent class
+
     - from a child class constructor, THERE IS ALWAYS going to be a call to the parent class constructor
     - ALL CLASSES IN JAVA HAVE A PARENT CLASS. who is parent?: parent class of all classes is Object class(Built-in by default)
     - Object class is super class of all classes in java (this is the reason we see many available methods
