@@ -1,0 +1,34 @@
+Constructor recap:
+    It's a block of code similar to a method that is executed when we create an object
+
+    Why do we need it?: constructor initialises the object
+
+This keyword:
+    is used to refer to the current object
+    'this' can be used with variables & methods.
+
+    'this' is used to refer to CURRENT instance variables in situations where
+    local variable has same name as instance variable, we use 'this' keyword
+    to differentiate and refer to the instance variable version
+
+    - this keyword can also refer to CURRENT instance methods
+
+    this() - can be used to call CURRENT class constructor
+
+Inheritance
+    is a mechanism where one class acquires all the methods an attributes of a parent class.
+    The idea behind it is we can create new classes that are built upon existing classes.
+    'extends' is the keyword used to inherit the variables/methods of a class.
+
+    3 types of inheritance:
+    1) single: One parent class, one sub class
+    2) multi-level: One parent class, one sub class, one sub-sub class etc.
+    3) Hierarchical: One parent class, many sub classes
+
+    - this keyword refers to the CURRENT class's instance variables and methods
+    - this() is used to call the CURRENT class's constructor
+
+Why we need inheritance:
+    - to reuse code
+
+    - constructors and private members do not participate in inheritance
