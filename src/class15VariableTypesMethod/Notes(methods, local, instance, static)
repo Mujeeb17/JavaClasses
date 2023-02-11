@@ -8,7 +8,7 @@ Why should we learn about methods:
     the logic into smaller parts by creating methods for them.
     build those methods one by one and later combine them
     to build the complete application.
-    2) Methods allow us to re-use code
+    2) MAIN USE FOR METHODS IS FOR CODE REUSUABILITY
     3) Methods allow us to be flexible
 
 How can we create Methods
@@ -54,3 +54,6 @@ instance variables:
     Downside: they stay longer in the memory compared to local variables
 Static variables:
     all variables that are outside of methods and have the static keyword are static variables
+
+    - note that static is opposite to instance, if a task asks for an instance method,
+    you cant make it static.

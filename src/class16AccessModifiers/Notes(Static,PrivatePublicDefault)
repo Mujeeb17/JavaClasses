@@ -23,6 +23,8 @@ Static variables:
 
     - static is a non access modifier, it doesn't define the visibility of a member like
     public and private keywords do.
+    - essentially when we make something static, we are saying that this method (for example)
+    belongs to the class rather an instance of that class
 
 Access modifiers:
     Access modifiers are some keywords in java that we can use to control
@@ -41,3 +43,6 @@ Default:
 
 Public:
     public keyword allows the variable/method/class, to be available to all classes in the project
+
+    - most methods in the industry are made 'public' because that's the purpose of methods
+    (reusing the code)

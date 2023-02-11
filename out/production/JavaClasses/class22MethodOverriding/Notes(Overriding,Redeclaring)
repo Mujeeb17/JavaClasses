@@ -1,11 +1,12 @@
 Method Overriding (Completely different from method overloading)
     It's a mechanism in java that allows a sub class to provide a
-    specific implementation of a method.
+    specific implementation of a method in the parent class.
     - can only happen with inheritance
 
 Why we should override a method?
     If a sub class doesn't like the implementation of the parent class, it has the flexibility
-    that it can override that method.
+    that it can override that method. (when we inherit from a class and if we don't like some methods
+                                       we can modify them by overriding)
     - if we
 
     - lets say we are inheriting 10 methods from a parent class but we only like 9,
@@ -20,10 +21,15 @@ Rules:
     default or protected access, we can't make it private, we could only make it public if needed
     4) static methods can't be overridden, they can be re-declared
 
+    - constructors are not inherited because they should be specific to their own class so whats the point?
+
 Redeclaration vs overriding
     redeclaring and overriding is the same thing but we only use the term re-declaring for things that
     are static
 
+// this '@Override' doesn't provide any function its just good practice
+// because it's easier to read for other programmers reading the code
+// it also helps the compiler help you find errors if you change anything in your programs
 
 Note:
     Inheritance is mostly discouraged because of tight coupling
@@ -41,3 +47,5 @@ Note:
     CANNOT override the main method, we can only re-declare it
 
     - A SIGNATURE IN PROGRAMMING TERMINOLOGY IS THE METHOD NAME AND ITS PARAMETERS
+
+    - SHORTCUT:  ctrl + o. shows you the methods you can override

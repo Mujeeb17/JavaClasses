@@ -19,3 +19,11 @@ Rules:
     - Constructor is a block of code that is executed when we create an object
     - There is no return type in constructors
     - 2 types of Constructors: 1. non argument(). 2. with parameters
+
+    - there is a rule in java where if you create a constructor in a parent class,
+    for any subclasses it has, you must make sure the subclasses also has a constructor
+    because now you are manually creating them as opposed to the compiler initialising an
+    empty constructor for you when you don't make one
+
+    SHORTCUT FOR CONSTRUCTOR: right click inside the class, click 'generate'. then constructor.
+    and hold down shift to select more than one field.
