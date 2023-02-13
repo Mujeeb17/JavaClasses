@@ -10,3 +10,4 @@ public class FinalKeyword {
     //so it's a good example of a 'final' variable
     final double gravity = 9.8;
     final double PI = 3.14159;
+}

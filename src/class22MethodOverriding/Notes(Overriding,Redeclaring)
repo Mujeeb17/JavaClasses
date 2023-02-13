@@ -47,5 +47,6 @@ Note:
     CANNOT override the main method, we can only re-declare it
 
     - A SIGNATURE IN PROGRAMMING TERMINOLOGY IS THE METHOD NAME AND ITS PARAMETERS
+    - A METHOD HEADER IS EVERYTHING IN THE METHOD DECLARATION EXECPT FOR THE BODY/CODE
 
     - SHORTCUT:  ctrl + o. shows you the methods you can override

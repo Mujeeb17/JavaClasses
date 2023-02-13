@@ -1,0 +1,43 @@
+Abstraction
+    Abstraction is the process of hiding implentation details and
+    showing only the functionality to user. (most of the time, we do this in parent class)
+
+    abstract keyword allows us to create a method in a
+    parent class with no implementation.
+
+    when you call a method that you want to define later on
+
+    - using abstract keyword will make it so that you CANNOT create an
+      object of that abstract class. so use keyword when you know for sure
+      that you will only be using implementations from a child class.
+
+    - but if you use abstract keyword, the child classes are now forced
+      to make their own implementations of the abstract methods
+
+Why we should use Abstraction
+
+    - it reduces the code complexity
+    - it allows end user to focus on using the features instead of worrying
+      about the implementation
+    - This allows for flexibility and customization of the methods in the
+      subclasses, while still ensuring a common structure through inheritance.
+
+Syntax:
+
+public abstract class Animal {
+
+     abstract void speak();
+     abstract void eat();
+}
+
+    - we need to declare the methods as 'abstract' if we are not planning to
+      provide the implementations
+    - also must declare the class as 'abstract'
+NOTE:
+    - learn how to use google because it is very important on
+      the job
+    - There is follow up question ..... Do we have constructor in Abstract class ..
+      as soon as you say ... You can't create object for Abstract class. But you could
+      use the parent constructor for child constructors if methods require that information
+    - ALSO!!! we can't make an abstract class as 'final' because final makes it so that we
+      can't use inheritance anymore

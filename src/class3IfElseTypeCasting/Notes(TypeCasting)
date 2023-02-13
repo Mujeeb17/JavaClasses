@@ -1,0 +1,8 @@
+Type casting, for instance:
+
+You are trying to make an INTEGER into the DOUBLE
+(which is a bigger data type) therefore you type it like this.
+
+int nameOfTheVariable = (here you type in again the same data
+type that already is so you let Java know that you are aware of
+what you are doing) 12.5; => 12.5 represents a double value.
