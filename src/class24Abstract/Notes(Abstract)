@@ -11,6 +11,13 @@ Abstraction
       object of that abstract class. so use keyword when you know for sure
       that you will only be using implementations from a child class.
 
+    - YOU ARE STILL ALLOWED TO HAVE constructors in an abstract class BECAUSE
+      although you can't call an object of an abstract clas BUT the child classes of this
+      abstract class may need to intialise the instance fields of a class (which is the purpose
+      of a constructor).
+      In conclusion: you can't call the object of an abstract class BUT
+      you can still make constructors for subclasses
+
     - but if you use abstract keyword, the child classes are now forced
       to make their own implementations of the abstract methods
 
@@ -35,7 +42,8 @@ public abstract class Animal {
     - also must declare the class as 'abstract'
 NOTE:
     - learn how to use google because it is very important on
-      the job
+      the job (when googling, type 'javadoc' for most up to date info)
+
     - There is follow up question ..... Do we have constructor in Abstract class ..
       as soon as you say ... You can't create object for Abstract class. But you could
       use the parent constructor for child constructors if methods require that information

@@ -1,0 +1,34 @@
+*check the beginning of this class's
+recording if you have time, about the
+industry / motivation*
+
+Interface:
+
+    Interface is a way to achieve abstraction for unrelated classes,
+    It is like a contract between unrelated classes that have their own implementations of
+    methods that are from the interface.
+
+    - you can't call an object in an interface AND you can't make constructors because
+      there are no instance fields in an interfaces
+
+    - final keyword should not be used in abstract / interfaces because
+      we can't change them afterwards so what's the point?
+
+    - the interface is very similar to abstraction
+
+    - the methods in an interface is automatically made 'public' and 'abstract'
+    - variables in an interface are automatically public, static, and final
+
+    - there are no instance fields in an interface (no instance variables allowed),
+      all variables made in an interface are automatically final, meaning if you create
+      a variable in an interface, you must initialise it.
+
+When should we use interface:
+    Abstract classes should be used primarily for objects that are CLOSELY RELATED,
+    whereas interfaces are best suited for providing a common functionality to UNRELATED classes.
+
+    - use abstraction when objects have similar logical domain (Animal: Dog, Cat, Horse)
+    - use interface where objects are not related to eachother (Interface: Dog, Phone, ShoppingStore)
+
+Note:
+    - most of the time, we use interface more than abstraction in the industry

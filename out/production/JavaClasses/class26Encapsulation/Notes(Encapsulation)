@@ -1,0 +1,6 @@
+Encapsulation
+    the idea of encapsulation provides a better way to organise code
+    for modifying it later.
+
+    - it's a good practice to make fields private so that other classes
+      won't be able to modify it.

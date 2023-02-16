@@ -8,9 +8,9 @@ public class ForEachLoop4 {
         //because we don't have access to the index
 
         //we can only print the data with a for each loop,
-        //we cant print it
+        //we cant update it
         for (int x : nums) {
-
+            System.out.println(x);
         }
 
     }

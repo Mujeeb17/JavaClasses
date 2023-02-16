@@ -6,3 +6,6 @@ You are trying to make an INTEGER into the DOUBLE
 int nameOfTheVariable = (here you type in again the same data
 type that already is so you let Java know that you are aware of
 what you are doing) 12.5; => 12.5 represents a double value.
+
+// BETTER WAY TO STUDY IS REVIEW ON POWERPOINT SLIDES FIRST
+// THEN IF SOMETHING SOUNDS CONFUSING, REFER TO THESE NOTES ON INTELLIJ
