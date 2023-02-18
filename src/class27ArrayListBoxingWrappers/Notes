@@ -1,0 +1,53 @@
+ArrayList vs. Array
+
+    ArrayList gives us access to a lot of methods that are already made that we can use
+    instead of us having to create those methods on our own. (its better
+    to reuse than to make a new method).
+
+    - The Java Developers code is way more efficient and optimized compared
+      to our code because they have decades of experience.
+
+    Also, the sizes of arrays that already created are fixed, we can't add to that
+    array later on in a program. But ArrayList allows us to add data because the size
+    of an ArrayList is not fixed. we don't need to specify size for ArrayList (but we could)
+    - Overall, ArrayList gives you more flexibility than regular arrays and
+      it's overall better than arrays. But regular arrays are faster and saves more memory.
+      Array occupies 4x less memory than ArrayList.
+
+      (if you want speed/memory, go with array.) usually not the case
+      (if you want flexibility, go with ArrayList)
+
+    ArrayList is more intelligent in the way when we run code, it will grow itself
+    if required, it can also shrink itself to save memory
+
+    - if we want to replace something in ArrayList, use set() method
+Wrapper class
+
+    Wrapper class in java provides the mechanism to
+    convert  primitive  into  object  and  object  into
+    primitive.
+    - it allows us to use primitives as a reference type so we
+      have access to the methods that are in the wrapper class
+
+    - For each primitive data type, java devs created a class for each data type
+      that acts as a replica because ArrayList doesn't support primitive data types
+      which is why you need to put a class name inside the diamond operators
+      int = Integer
+      char = Character
+      boolean = Boolean
+      etc.
+
+Collection framework
+
+    allows us to collect and store multiple objects in a single variable.
+    the ArrayList is just one class thats a part of the Collection Framework
+
+Note:
+    - the only difference between for loop and while loop is,
+      for loop is easier to read. The explanation that for loop is only
+      used when you know exact number of iterations is problematic. while loops
+      can do the same thing a for loop can do
+
+    - Java is 99% Object oriented programming because the 1% is the
+      primitive data types like int, boolean, char which are primitive data types
+
