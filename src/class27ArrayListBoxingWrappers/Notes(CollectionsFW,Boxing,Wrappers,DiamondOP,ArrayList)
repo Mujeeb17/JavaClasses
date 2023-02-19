@@ -1,5 +1,10 @@
 ArrayList vs. Array
 
+    ArrayList is a part of collections framework, we can store single objects inside ArrayList.
+    It works very similar to how arrays work but its dynamic in nature which means it can grow and shrink its size 
+    automatically. Unlike arrays, we don't need to provide the size upfront. We have built-in methods that we can use to
+    manipulate the objects we store in the ArrayList.
+    
     ArrayList gives us access to a lot of methods that are already made that we can use
     instead of us having to create those methods on our own. (its better
     to reuse than to make a new method).
@@ -9,7 +14,7 @@ ArrayList vs. Array
 
     Also, the sizes of arrays that already created are fixed, we can't add to that
     array later on in a program. But ArrayList allows us to add data because the size
-    of an ArrayList is not fixed. we don't need to specify size for ArrayList (but we could)
+    of an ArrayList is not fixed (ArrayList is dynamic). we don't need to specify size for ArrayList (but we could)
     - Overall, ArrayList gives you more flexibility than regular arrays and
       it's overall better than arrays. But regular arrays are faster and saves more memory.
       Array occupies 4x less memory than ArrayList.
@@ -28,6 +33,9 @@ Wrapper class
     primitive.
     - it allows us to use primitives as a reference type so we
       have access to the methods that are in the wrapper class
+      (we can use primitive data types as objects with wrapper classes.
+      We want to do this because primitive data types aren't supported by the
+      collections framework like ArrayList)
 
     - For each primitive data type, java devs created a class for each data type
       that acts as a replica because ArrayList doesn't support primitive data types
@@ -37,11 +45,37 @@ Wrapper class
       boolean = Boolean
       etc.
 
+Boxing
+
+    Converting primitive data type to an object using its corresponding wrapper class is boxing.
+
+    Autoboxing is just assigning a wrapper type to a primitive type (Integer -> int) and
+    the conversion will happen automatically
+
+    It is the process of converting primitive data types to its corresponding wrapper type or object type.
+    Integer i = new Integer (10)    => Boxing
+    int one = I;    => Unboxing
+
+    AutoBoxing:
+    It says that we just have to assign a wrapper type to a primitive type of variable and conversion will happen automatically.
+    Character gf = ‘a’;   => Autoboxing
+    char ch = gf;    => Auto-unboxing
+
 Collection framework
+
+    The collection framework is a group of classes and interfaces which help us store and manage
+    objects in the form of collections. These classes make it easier to manage data as they have
+    built-in methods for us to use. The LinkedList and ArrayList is a part of the
+    collection framework.
 
     allows us to collect and store multiple objects in a single variable.
     the ArrayList is just one class thats a part of the Collection Framework
 
+Diamond operator
+
+     the diamond operator is used to specify the name of the class whose objects we will be storing
+     inside the the classes which belongs to the collections framework or any other class which 
+     uses java generics.
 Note:
     - the only difference between for loop and while loop is,
       for loop is easier to read. The explanation that for loop is only
@@ -50,3 +84,4 @@ Note:
 
     - Java is 99% Object oriented programming because the 1% is the
       primitive data types like int, boolean, char which are primitive data types
+

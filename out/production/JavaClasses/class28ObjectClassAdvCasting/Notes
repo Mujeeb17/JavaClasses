@@ -1,0 +1,42 @@
+Generic vs. non-generic
+
+    In the past, Java collection was non-generic meaning no diamond operators.
+    Java new generic collections allows you to have only one type of object in the collection.
+    Now it is type safe so typecasting is not needed at run time .
+
+    >generic means (like a group, so same type u know) < datatype of objects(string) >
+    ....that's why Arraylist<String> is considered generic we will only be storing String objects etc.
+
+    - Don't confuse the english word: generic with the java definition of generic
+
+LinkedList vs. ArrayList
+
+    - They both have the same methods and feature but what happens behind the scenes
+      is what makes these two frameworks different
+
+    - ArrayList internally uses dynamic array to store the elements.
+      LinkedList internally uses doubly linked list to store the elements.
+
+    When it comes to storing and removing data, in a LinkedList, it only affects the elements
+    that are in between of what you are trying to add/remove because of the doubly linked concept
+    whereas in an ArrayList, the whole array shifts when you add/remove elements and every element
+    is affected which is what makes it slower.
+
+    In the case of the LinkedList you can go directly to the element you want to access
+    whereas the LinkedList, you go from 1st element to 2nd element to 3rd etc until you
+    reach the one you need
+    - ArrayList is better for accessing data (get() method). LinkedList is better for storing and removing
+      data.
+
+    - In most situations, ArrayList is more common to use
+
+For loops and Array/Linked-List
+
+    we can't use for loops that will change the size of the List because they
+    are dynamic and will change its size at runtime which will cause the for loop
+    a lot of confusion and will show error
+
+    - lesson: don't use loops to change data in Linked/Array Lists because they are dynamic
+
+    if you are planning to change the size of a List, use Iterators.
+    - loops are static, iterators are dynamic

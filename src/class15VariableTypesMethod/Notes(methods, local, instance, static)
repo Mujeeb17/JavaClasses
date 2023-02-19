@@ -3,6 +3,9 @@ Methods in Java:
     Methods in java are just a block of code which performs a specific
     task and it can be called upon later in a program
 
+What is an object:
+    an instance of a Java class, meaning it is a copy of a specific class.
+
 Why should we learn about methods:
     1) it allows us to simplify large code as we can divide
     the logic into smaller parts by creating methods for them.
