@@ -40,3 +40,9 @@ For loops and Array/Linked-List
 
     if you are planning to change the size of a List, use Iterators.
     - loops are static, iterators are dynamic
+
+Notes:
+
+    - var keyword doesn't work in java 9 and below
+    - Iterator works from java 6 to present
+    - lambda expressions doesn't work in java 7 and below
