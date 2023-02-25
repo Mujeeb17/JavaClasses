@@ -1,10 +1,16 @@
 Encapsulation
     the idea of encapsulation provides a better way to organise code
     for modifying it later.
+
     the idea also says to create classes and not
     put all your code in the main method.
+
+    encapsulation is about privacy and hiding data. its binding variables with
+    methods (setters and getters)
+
     it says make getter and setter methods so you have more control over
     the values you want others to access (so that your classes are more secure)
+        - we can make public methods that are able to either set or get private variables
 
     - it's a good practice to make fields private so that other classes
       won't be able to modify it.

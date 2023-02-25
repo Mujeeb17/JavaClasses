@@ -32,3 +32,5 @@ When should we use interface:
 
 Note:
     - most of the time, we use interface more than abstraction in the industry
+    - after java 8 we are allowed to give implementation to methods in an interface
+      only if its static or default

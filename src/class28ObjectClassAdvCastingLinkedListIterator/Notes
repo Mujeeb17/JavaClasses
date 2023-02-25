@@ -41,6 +41,14 @@ For loops and Array/Linked-List
     if you are planning to change the size of a List, use Iterators.
     - loops are static, iterators are dynamic
 
+Iterator class
+
+    if we are performing any operation that changes the size of a Linked/Array List, we have to
+    use iterators because regular loops don't have that capability because we can't remove elements at
+    the same time as iterating through the elements.
+    - loops can't adapt through the size change of the lists without an iterator
+
+
 Notes:
 
     - var keyword doesn't work in java 9 and below

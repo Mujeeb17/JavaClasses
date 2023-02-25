@@ -19,11 +19,7 @@ public class EvenNumbers {
         System.out.println(num);
 
         //creating an iterator to loop through elements inside ArrayList
-        for(Iterator<Integer> i = num.iterator(); i.hasNext();){
-            if (i.next() % 5 == 0){
-                i.remove();
-            }
-        }
+        num.removeIf(x -> x % 5 == 0);
 
         System.out.println(num);
     }

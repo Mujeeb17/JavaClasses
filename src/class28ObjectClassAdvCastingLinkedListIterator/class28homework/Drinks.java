@@ -15,15 +15,14 @@ public class Drinks {
         drinks.add("coke");
         drinks.add("fanta");
         drinks.add("monster");
+        drinks.add("milk");
 
         //2 ways that completes this task:
 
         //1 way:
-        Iterator<String> iterator = drinks.iterator();
 
-        while(iterator.hasNext()){
-            String s = iterator.next();
-            if (s.endsWith("a") || s.endsWith("e")){
+        for (String s : drinks) {
+            if (s.contains("a") || s.contains("e")) {
                 drinks.set(drinks.indexOf(s), "water");
             }
         }
