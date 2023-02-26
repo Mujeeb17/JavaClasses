@@ -1,0 +1,33 @@
+Super keyword recap:
+    Is used to refer to the parent class members like fields methods and constructors
+
+When we should use 'super' or 'this' keyword:
+    whenever sam name field field/method exists inside the parent & child class, we can
+    use super to refer to parent
+
+Method Overloading
+    happens when same name method exists in a class with different parameters
+
+    - It's a mechanism in java that allows us to have multiple methods with the same name
+      but different parameters.
+    - understand that when you call a method, the method is checking which parameters are being passed
+
+    We can overload methods in 3 ways:
+    1) by changing the number of parameters in a method
+    2) by changing the data types
+    3) by changing the sequence of parameters
+
+why should we overload a method or constructor?
+    method overloading allows us to reuse the method name so that way we don't need
+    to bother coming up with different names if we are doing the same thing again and again.
+    - its cleaner code, more readability and flexibility for end user.
+
+    - upcasting??
+
+Some important things before selenium:
+    if/else conditions
+    loops
+    arrays
+    methods
+    String class methods (Ignore StringBuffer)
+    Inheritance

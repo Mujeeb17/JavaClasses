@@ -1,0 +1,52 @@
+Method Overriding (Completely different from method overloading)
+    It's a mechanism in java that allows a sub class to provide a
+    specific implementation of a method in the parent class.
+    - can only happen with inheritance
+
+Why we should override a method?
+    If a sub class doesn't like the implementation of the parent class, it has the flexibility
+    that it can override that method. (when we inherit from a class and if we don't like some methods
+                                       we can modify them by overriding)
+    - if we
+
+    - lets say we are inheriting 10 methods from a parent class but we only like 9,
+    so what we can do is keep the 9 the way they are, and the last one, we can override
+    the method so that its more useful for the subclass
+
+Rules:
+    1) There must be a parent child relationship between two classes
+    2) If something can't be inherited, we can't override it. For example private methods
+    or constructors.
+    3) Visibility of an overridden method can be increased, for ex: if something has
+    default or protected access, we can't make it private, we could only make it public if needed
+    4) static methods can't be overridden, they can be re-declared
+
+    - constructors are not inherited because they should be specific to their own class so whats the point?
+
+Redeclaration vs overriding
+    redeclaring and overriding is the same thing but we only use the term re-declaring for things that
+    are static
+
+// this '@Override' doesn't provide any function its just good practice
+// because it's easier to read for other programmers reading the code
+// it also helps the compiler help you find errors if you change anything in your programs
+
+Note:
+    Inheritance is mostly discouraged because of tight coupling
+    - tightly coupling is when one class is very dependant on another class and in a
+    situation where there are many devs working one project, they have to be
+    aware of what they might be changing in a parent class because it has
+    the potential to mess up a lot of sub classes
+
+    - Inheritance can cause problems with code because it makes classes
+    dependent on each other, it can limit flexibility, create complicated
+    relationships, break expected behavior, and result in overcomplex
+    code if used too much
+
+    - We CAN overload the main method because technically its just another method BUT, we
+    CANNOT override the main method, we can only re-declare it
+
+    - A SIGNATURE IN PROGRAMMING TERMINOLOGY IS THE METHOD NAME AND ITS PARAMETERS
+    - A METHOD HEADER IS EVERYTHING IN THE METHOD DECLARATION EXECPT FOR THE BODY/CODE
+
+    - SHORTCUT:  ctrl + o. shows you the methods you can override

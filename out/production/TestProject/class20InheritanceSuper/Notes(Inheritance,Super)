@@ -1,0 +1,36 @@
+Inheritance:
+    - process when subclass aqcuires properties and methods from super/parent class
+    - we use this for code reusability
+    - we do this with the 'extends' keyword
+
+Inheritance Types:
+    Single - 1 child 1 parent
+    Multilevel - grandparent, parent, subclass, sub-subclass etc.
+    Hierarchical - 1 parent, multiple children
+
+Access modifier & Inheritance
+    if a parent class has a private method/variable, any sub class WON'T have those
+    (private members don't participate in inheritance)
+
+    default members are only visible in the same package.
+
+    protected members are only visible in the same package UNLESS, there is a
+    subclass and parent class in different packages (only avaialable outside packages
+    through inheritance).
+
+    public members are available everywhere.
+
+Super
+    Is used to refer to the parent class members like fields methods and constructors
+
+When we should use 'super' or 'this' keyword:
+    whenever sam name field field/method exists inside the parent & child class, we can
+    use super to refer to parent class variables or methods or constructors.
+    Note: by default (without 'this' or 'super'), java will refer to the local member first, then
+    instance, then from the parent class
+
+    - from a child class constructor, THERE IS ALWAYS going to be a call to the parent class constructor
+    - ALL CLASSES IN JAVA HAVE A PARENT CLASS. who is parent?: parent class of all classes is Object class(Built-in by default)
+    - Object class is super class of all classes in java (this is the reason we see many available methods
+      methods we can use when we use '.'
+    - we can use super keyword

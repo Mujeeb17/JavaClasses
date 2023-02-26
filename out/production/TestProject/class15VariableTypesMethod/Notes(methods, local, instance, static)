@@ -1,0 +1,62 @@
+Methods in Java:
+    Is just a collection of java statements and blocks of code.
+    Methods in java are just a block of code which performs a specific
+    task and it can be called upon later in a program
+
+What is an object:
+    an instance of a Java class, meaning it is a copy of a specific class.
+
+Why should we learn about methods:
+    1) it allows us to simplify large code as we can divide
+    the logic into smaller parts by creating methods for them.
+    build those methods one by one and later combine them
+    to build the complete application.
+    2) MAIN USE FOR METHODS IS FOR CODE REUSUABILITY
+    3) Methods allow us to be flexible
+
+How can we create Methods
+    2 types of methods: built-in and user defined
+
+Built-in methods:
+    The methods which are designed by java developers for ex: println(), nextLine(), length().
+
+User-defined method:
+    The methods that we write.
+
+Methods which return something when called and
+others are methods which do not return anything when called.
+
+int add(int a, int b){
+    return a+b;
+}
+
+int => return type of a method
+add => name of the method
+(int a, int b) => parameters of the method or input to the method
+
+Rules:
+    return type and values we are returning from a method should match.
+    we can only assign methods to variables of same type
+************************************************************
+There are 3 types of variables with respect to their scope
+local variables:
+    if a variable is created inside a block of code like a method, loop, if condition etc.
+    they are called local variables
+
+    Upside: local variables occupy the memory for the shortest period of time.
+    You should always try to write code with local variables.
+    Downside: they can't be accesed outside of the block in which they are created in
+
+instance variables:
+    all variables created inside a class outside a method
+    are called instance variables
+
+    Upside: we can use them in all the instance methods of that class. their scope is
+    larger than local variables.
+
+    Downside: they stay longer in the memory compared to local variables
+Static variables:
+    all variables that are outside of methods and have the static keyword are static variables
+
+    - note that static is opposite to instance, if a task asks for an instance method,
+    you cant make it static.

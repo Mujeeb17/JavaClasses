@@ -1,0 +1,32 @@
+Encapsulation
+    the idea of encapsulation provides a better way to organise code
+    for modifying it later.
+
+    the idea also says to create classes and not
+    put all your code in the main method.
+
+    encapsulation is about privacy and hiding data. its binding variables with
+    methods (setters and getters)
+
+    it says make getter and setter methods so you have more control over
+    the values you want others to access (so that your classes are more secure)
+        - we can make public methods that are able to either set or get private variables
+
+    - it's a good practice to make fields private so that other classes
+      won't be able to modify it.
+
+    - 'get' methods are the ones that only display private fields without modifying them
+        - 'get' methods should have a return type same as variable you are 'getting'
+
+    - 'set' methods allow us to modify the fields (usually with certain if conditions)
+        - 'set' methods are usually void because you shouldn't be returning anything,
+          you are only setting the value
+
+    - you can automatically make 'get' and 'set' methods through 'generate' with intellij
+
+    The main advantage of using of encapsulation is
+    to secure the data from other methods, when we
+    make a data private then these data only use
+    within the class, but these data not accessible
+    outside the class.
+    - this gives you more control over the values so that they can't be changed without you knowing

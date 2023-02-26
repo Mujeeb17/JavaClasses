@@ -1,0 +1,39 @@
+Acessing keys inside a map
+
+    when we want to access keys in a map, we have to create a new Set
+    and make it = (map).keySet();
+
+    whatever we do with this new Set will affect the map because they are
+    linked behind the scenes even though your code is only acting on the Set.
+
+    - same thing with values ((map).values();) instead
+
+************* Needing to access both the key and the value of a map *************
+
+    - refer to MapsDemo5
+
+    just like keySet() and values(), this entrySet() is giving us a Set
+    that contains entries of type Integer and String.
+
+    entrySet is going to have it's own methods that allow us to access the
+    key and value so if we need to write conditions that involve both the
+    key and value, we can do that with this.
+
+        Set<Entry<Integer, String>> entrySet = students.entrySet();
+
+            for (Entry<Integer, String> entry: entrySet){
+                System.out.println(entry.getKey());
+                System.out.println(entry.getValue());
+                System.out.println();
+
+    - referring to EntryDemo6, we manually created the Entry class and all methods
+      that are already built in to show what is actually going on behind the scenes of MapsDemo6.
+    - put method simplifies the code and save us from creating other class, objects and instances?
+
+Note:
+    - when we have duplicate keys in a map, the value will be updated
+      to the most recent value
+
+    - to delete elements use lambda
+    -refer back to Countries homework in this package, important to understand
+        - note java 8 doesn't have var keyword which would replace (Map.Entry<String, String>) statement
