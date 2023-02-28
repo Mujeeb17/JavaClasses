@@ -1,4 +1,4 @@
-Acessing keys inside a map
+Accessing keys inside a map
 
     when we want to access keys in a map, we have to create a new Set
     and make it = (map).keySet();

@@ -13,7 +13,7 @@ HashSet
 
 LinkedHashSet
 
-    LinkedHasSet DOES maintain order but its slower than HashSet
+    LinkedHashSet DOES maintain order but its slower than HashSet
 
 TreeSet
 
