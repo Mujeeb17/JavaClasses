@@ -48,6 +48,8 @@ Iterator class
     the same time as iterating through the elements.
     - loops can't adapt through the size change of the lists without an iterator
 
+    - Iterator works with anything a part of Collections
+
 
 Notes:
 
