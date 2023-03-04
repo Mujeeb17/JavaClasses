@@ -1,0 +1,26 @@
+If we have to read data from file on computer
+    - we need to know the location of that file and navigate there
+    - we need a software that understands how the data is stored in those files
+To create a new directory
+    - right click on project, go to new --> directory
+
+- when creating a file inside a directory, you must give name
+  first then extension as .properties like (config.properties)
+
+why do we need .properties file
+    - we use them to store info like usernames, URLs passwords etc. so that this info is secured
+      and not pushed to github
+    - when we use selenium, sometimes we hard code in private values like usernames and passwords
+      but this is not good if we're in a public team with a lot of people accessing the repository
+      so, instead of putting the private info in the program, we store those values in a file inside
+      a directory, and we do not push those those files to the repository ("git ignore")
+
+How to get path of a file from IntelliJ
+    - Right click on file, copy path reference, path from content root
+    - if the above relative path doesn't work, use the absolute path
+
+- Properties class is a child of map so we are able to use those methods
+- note excel rows start at 1, 2, 3 but to java, it is 0, 1 , 2
+  (even the colummns)
+- colummns are called cells in excel
+- excel files are very important on the jobs

@@ -39,6 +39,10 @@ Maps (Map interface)
         - map is not in the collection framework
         - map stores data in keys and values
 
+    - key + value = Entry Object
+    - with duplicate keys, the value of that key will be updated to the latest value that was set.
+      you can't have two keys that are the same which have their own unique value
+
 Note:
     - when we create objects. It's better to have the reference variable of the parent
       class type, and the object stored in the child class like this:
