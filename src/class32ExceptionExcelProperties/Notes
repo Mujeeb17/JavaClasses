@@ -1,0 +1,34 @@
+utils package
+    - we created classes that have methods which allow us to
+      our previous tasks with excel / .properties files easier
+
+Exceptions
+    - Exceptions are runtime issues that stop the normal flow of the program
+      and can suddenly terminate the program's execution
+    - if the program crashes because one part of the code doesn't work, users
+      will have experiences and its bad for business etc.
+
+    - exceptions can occur for many reasons not just bad code
+
+    - to avoid these issues, we have exception handling in java
+    - prevents our program from crashing when there is an error on one specific part
+      of the code but the rest of the code is just fine
+    - allows us to explain errors in the class rather than the user seeing
+      "Exception code line ...." we can put "username has to be over 4 characters"
+    - the mechanism for exception handling is to use try catch blocks
+        - we put the problematic code inside the try{} and then provide the backup code
+          inside the catch(){} where we can convert the error to simple text
+        - you can also have nested try catch blocks for a plan c,d,e etc.
+
+    - when we add exception to method signature, we are assigning the repsonsibility of the
+      error to someone else
+        - when we use throw keyword, we are saying go back to where you got this class/method,
+          and let that developer fix it
+        - when we do this we are basically tell the JVM to solve it because there are no other
+          developers, and when JVM can't solve it, it will close the application
+            - JVM is the default exception handler but doesn't handle it well so its
+              better that we write the try catch block
+
+Checked Exceptions
+
+Unchecked Exceptions

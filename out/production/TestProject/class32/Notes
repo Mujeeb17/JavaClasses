@@ -1,0 +1,15 @@
+utils package
+    - we created classes that have methods which allow us to
+      our previous tasks with excel / .properties files easier
+
+Exceptions
+    - if the program crashes because one part of the code doesn't work, users
+      will have experiences and its bad for business etc.
+
+    - to avoid these issues, we have exception handling in java
+
+    - prevents our program from crashing when there is an error on one specific part
+      of the code but the rest of the code is just fine
+
+    - allows us to explain errors in the class rather than the user seeing
+      "Exception code line ...." we can put "username has to be over 4 characters"

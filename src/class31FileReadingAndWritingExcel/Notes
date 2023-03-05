@@ -1,6 +1,34 @@
-If we have to read data from file on computer
+File Handling
+    - Reading and writing data to files
+
+If we have to read/write data from file on computer
     - we need to know the location of that file and navigate there
-    - we need a software that understands how the data is stored in those files
+    - we navigate there using 2 classes:
+      FileInputStream (for reading data) and FileOutputStream (writing data)
+    - we need a software that understands how the data is stored in those files (and can read/write it)
+        - for examples: we use the class Properties when we have to read data from the .properties files.
+          We use XSSF Workbook to read and write data in Excel Files
+          (There are also other extensions that i don't have installed that can do the same thing for PDF, word, etc.)
+
+Why learn about file handling
+    - we will be storing data like username/password/URLs/type of browser etc. in configuration files.
+    - when we need to perform data driven testing, we will be storing and reaidng all the data from
+      files like xlsx or csv files
+
+Data driven testing
+    - Data-driven testing is a software testing methodology that involves
+      using data to drive the testing process. Instead of using a fixed set of
+      inputs and expected outputs for each test case, data-driven testing involves
+      using different sets of data to create multiple test cases.
+
+    - instead of writing several different test cases that test the same thing
+      (checking if every username & every password works), you can write one test case
+      that tests all of them from an excel sheet for ex. (test through automation)
+
+How to read/write data from files
+    - get the path
+    - use FileInputStream/FileOutputStream to navigate
+    - use a specialized class like Properties and XSSFWorkbook
 To create a new directory
     - right click on project, go to new --> directory
 
@@ -20,7 +48,10 @@ How to get path of a file from IntelliJ
     - if the above relative path doesn't work, use the absolute path
 
 - Properties class is a child of map so we are able to use those methods
+- FileInputStream
+
 - note excel rows start at 1, 2, 3 but to java, it is 0, 1 , 2
   (even the colummns)
-- colummns are called cells in excel
+- We use Row class and then Cell class to access data in excel
 - excel files are very important on the jobs
+
