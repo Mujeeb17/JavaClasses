@@ -2,7 +2,7 @@ utils package
     - we created classes that have methods which allow us to
       our previous tasks with excel / .properties files easier
 
-Exceptions
+Exceptions (try catch)
     - Exceptions are runtime issues that stop the normal flow of the program
       and can suddenly terminate the program's execution
     - if the program crashes because one part of the code doesn't work, users
@@ -28,7 +28,18 @@ Exceptions
           developers, and when JVM can't solve it, it will close the application
             - JVM is the default exception handler but doesn't handle it well so its
               better that we write the try catch block
+    - Inside the catch brackets (catch(HERE)) we could just put "Exception" for all exceptions or
+      luckily, java devs have already made certain classes if you want the try catch block to only
+      work for specific exceptions like FileNotFoundException or NullPointerException etc.
+        - "Exception" class is parent class for all other exception classes
+    - you can write catch blocks like they're if conditions (else if this exception.. else if this exception...)
 
 Checked Exceptions
 
 Unchecked Exceptions
+
+Side stuff:
+    - the out folder in the Project is byte code. This is the code that java feeds to the JVM
+    - the code we type in java files compliles into the byte code, and then that code is fed to JVM
+      which translates the byte code into something that the computer can actually understand.
+    -
