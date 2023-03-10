@@ -2,7 +2,7 @@ utils package
     - we created classes that have methods which allow us to
       our previous tasks with excel / .properties files easier
 
-Exceptions (try catch) (throw/throws)
+Exceptions (try catch)
     - Exception vs. Error: errors can't be handled like if the computer is out of memory,
       everything else that can actually be handled is an exception
     - Exceptions are runtime issues that stop the normal flow of the program
@@ -22,39 +22,23 @@ Exceptions (try catch) (throw/throws)
           inside the catch(){} where we can convert the error to simple text
         - you can also have nested try catch blocks for a plan c,d,e etc.
 
-    - when we add exception to method signature (throws), we are assigning the responsibility of the
+    - when we add exception to method signature, we are assigning the repsonsibility of the
       error to someone else
-        - when we use throws keyword, we are saying go back to where you got this class/method,
+        - when we use throw keyword, we are saying go back to where you got this class/method,
           and let that developer fix it
         - when we do this we are basically tell the JVM to solve it because there are no other
           developers, and when JVM can't solve it, it will close the application
             - JVM is the default exception handler but doesn't handle it well so its
               better that we write the try catch block
-    - "throws" is used to declare an exception and is always followed by the method signature.
-    - "throw" is used to throw an exception explicitly
     - Inside the catch brackets (catch(HERE)) we could just put "Exception" for all exceptions or
       luckily, java devs have already made certain classes if you want the try catch block to only
       work for specific exceptions like FileNotFoundException or NullPointerException etc.
         - "Exception" class is parent class for all other exception classes
     - you can write catch blocks like they're if conditions (else if this exception.. else if this exception...)
 
-Finally
-    - Finally block of code is used to place important code, it will be
-      executed whether exception is handled or not. Unless there is a
-      System.exit() code executed
-    - For each try block there can be zero or more catch blocks,
-      but only one finally block.
-
 Checked Exceptions
 
-    - The exceptions that are mandatory to handle in code by providing try
-      catch block and are outside the control of programmer are called
-      checked exception they are forced by compiler.
-
 Unchecked Exceptions
-    - The exceptions that are non mandatory to handle in code and are in the control
-      of programmer and can be avoided by writing good code are called unchecked
-      exception they are not forced by compiler.
 
 Side stuff:
     - the out folder in the Project is byte code. This is the code that java feeds to the JVM

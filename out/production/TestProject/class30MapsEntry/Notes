@@ -34,6 +34,10 @@ Note:
     - when we have duplicate keys in a map, the value will be updated
       to the most recent value
 
-    - to delete elements use lambda
+    - to delete elements use lambda (fastest and easiest way without using an iterator)
+    - note that Map doesn't have removeIf() method because it's only available in Collections
+      so that's why we have to convert the Map to a Set (entry set) so we can use removeIf()
+
     -refer back to Countries homework in this package, important to understand
         - note java 8 doesn't have var keyword which would replace (Map.Entry<String, String>) statement
+        - to see your java version: file -> project structure
