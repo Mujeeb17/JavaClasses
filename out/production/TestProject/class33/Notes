@@ -1,0 +1,40 @@
+Exceptions continued
+    - : an unwanted behaviour in programs which occur at runtime
+      and make our programs terminate suddenly.
+
+Exception handling
+    - it is a mechanism that allows us to avoid runtime errors and helps us convert
+      complex error messages to something simpler that a normal human can understand
+
+How to implement Exception handling
+    - keywords: try, catch, finally, throw, throws
+
+try block of code
+    - inside the try block of code, we write the code that may put out an exception
+    - put problematic code in here
+
+catch block of code
+    - the catch block of code contains the backup code that we want to excecute in case of failure.
+      can also contain the code to simplify error messages. can also contain code that might send a
+      notification or email to a developer or admin in case of a failure
+    -
+
+how it works
+    - we can have many catch blocks with one try block. each catch block handling a different error
+    - we can also put a last catch block with the Exception class so that if something goes wrong that
+      wasn't anticipated, it will catch that error
+
+finally block of code
+    - finally block is always executed no matter what happens in the try block or the catch block
+    - we should put cleanup code here like closing a browser, closing the database connection etc.
+
+Handling exceptions in the console
+    - the console gives you certain info when you have an exception
+        - tells you what exception it is
+        - basic description of the problem
+        - the code that caused the problem
+    - sometimes the console will give you several lines of code that caused the problem
+      which is the stack trace. When reading this, start from the line of code at the
+      bottom of the console, and as you work through them to the top, you should find the
+      source of the problem
+
