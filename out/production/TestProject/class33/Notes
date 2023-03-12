@@ -38,3 +38,6 @@ Handling exceptions in the console
       bottom of the console, and as you work through them to the top, you should find the
       source of the problem
 
+- throw keyword allows us to put out an exception explicitly
+- throws keyword lets us give the problem to someone else
+  (we are throwing the problem to someone else)
