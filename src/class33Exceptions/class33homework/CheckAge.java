@@ -1,4 +1,4 @@
-package class33.class33homework;
+package class33Exceptions.class33homework;
 
 import java.util.Scanner;
 

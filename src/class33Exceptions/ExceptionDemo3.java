@@ -1,4 +1,4 @@
-package class33;
+package class33Exceptions;
 
 public class ExceptionDemo3 {
     public static void main(String[] args) {

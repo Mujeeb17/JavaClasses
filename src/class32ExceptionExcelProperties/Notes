@@ -36,6 +36,7 @@ Exceptions (try catch) (throw/throws)
               better that we write the try catch block
 
     - "throws" is used to declare an exception and is always followed by the method signature.
+        - used to indicate that a method can throw an exception
     - "throw" is used to throw an exception explicitly
         - for ex: throw new NullPointerException();
 
@@ -44,6 +45,8 @@ Exceptions (try catch) (throw/throws)
       work for specific exceptions like FileNotFoundException or NullPointerException etc.
         - "Exception" class is parent class for all other exception classes
     - you can write catch blocks like they're if conditions (else if this exception.. else if this exception...)
+        - good practice is to make the first catch block an exception that we predict, and then one more catch block
+          for all exceptions (using Exceptions class)
 
 Finally
     - Finally block of code is used to place important code, it will be
@@ -66,6 +69,8 @@ Unchecked Exceptions
     - The exceptions that are non mandatory to handle in code and are in the control
       of programmer and can be avoided by writing good code are called unchecked
       exception they are not forced by compiler.
+    - for ex: System.out.println(10/0);
+      because java would not force you to correct the code
 
 Side stuff:
     - the out folder in the Project is byte code. This is the code that java feeds to the JVM
@@ -74,3 +79,6 @@ Side stuff:
 
     - learn about the finalize() method in Object class, popular interview question
         - it supposedly a bad practice ?
+
+    - printStackTrace() method gives all the info for us to find and fix errors (most common)
+    - getMessage() method gives you only the short description of the error

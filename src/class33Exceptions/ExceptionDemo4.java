@@ -1,6 +1,5 @@
-package class33;
+package class33Exceptions;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 
 public class ExceptionDemo4 {

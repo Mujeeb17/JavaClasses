@@ -41,3 +41,14 @@ Handling exceptions in the console
 - throw keyword allows us to put out an exception explicitly
 - throws keyword lets us give the problem to someone else
   (we are throwing the problem to someone else)
+
+Three main types of issues in java programs
+    - Syntax error, logical error, exceptions(runtime errors)
+
+    - Syntax error: occur when java syntax is not followed for ex: when we create a variable we have to specify its type.
+      these errors don't allow us to compile the code
+    - logical errors: occur when programs don't do what we expect them to do for ex: we write code to click a button,
+      but it actually clicks a checkbox
+    - exceptions(runtime errors): occur when code compiles fine but when you run the program, it throws errors.
+      These are fixed by reading the exception that is put out in the console and go to the class of that exception
+      for more information
